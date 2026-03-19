@@ -2,13 +2,11 @@ import java.util.Scanner;
 
 public class Overloading {
 
-    // Method overloading dengan parameter int
     public static void HitungLuas(int a, int b){
         int nilai = a * b;
         System.out.println("Maka hasil luas integer : " + nilai);
     }
 
-    // Method overloading dengan parameter double
     public static double HitungLuas(double value, double value2){
         double nilai = value * value2;
         return nilai;
